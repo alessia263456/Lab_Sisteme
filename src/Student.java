@@ -1,6 +1,8 @@
-public class Student {
+public class Student
+{
     Integer numarMatricol;
     String prenume, nume, formatieDeStudiu;
+
     Student(Integer numarMatricol, String prenume, String nume, String formatieDeStudiu)
     {
         this.numarMatricol=numarMatricol;
@@ -10,7 +12,8 @@ public class Student {
     }
 
     @Override
-    public String toString() {
-        return numarMatricol.toString()+" "+prenume+" "+nume+" "+formatieDeStudiu;
+    public String toString()
+    {
+        return numarMatricol + " " + prenume + " " + nume + " " + formatieDeStudiu;
     }
 }
